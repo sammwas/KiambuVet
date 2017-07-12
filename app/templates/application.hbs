@@ -1,22 +1,22 @@
 <div class="container">
   <header class="jumbotron">
-    <h1>PUPVILLE</h1>
+    <h1 id="opening">PUPVILLE</h1>
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">pupville</a>
+          <a class="navbar-brand navtext" href="#">pupville</a>
         </div>
         <ul class="nav navbar-nav">
-          <li class="active">{{#link-to 'index'}}home!{{/link-to}}</li>
-          <li>{{#link-to 'about'}}about us!{{/link-to}}</li>
-          <li>{{#link-to 'adopt'}}adopt a pup!{{/link-to}}</li>
+          <li class="active navtext">{{#link-to 'index'}}home!{{/link-to}}</li>
+          <li class="navtext">{{#link-to 'about'}}about us!{{/link-to}}</li>
+          <li class="navtext">{{#link-to 'adopt'}}adopt a pup!{{/link-to}}</li>
         </ul>
       </div>
     </nav>
   </header>
   {{outlet}}
   <hr>
-  <footer class="jumbotron">
+  <footer class="jumbotron navtext">
     {{#link-to 'contact'}}Our representatives would love to help!{{/link-to}}
     <h3>Catch us online on our social media pages</h3>
     <img src="https://image.flaticon.com/icons/png/128/174/174855.png" class="footerimage"/>

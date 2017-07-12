@@ -11,3 +11,11 @@ img{
    height: 90px;
    width: 90px;
  }
+#opening{
+  font-family: 'Lemonada', cursive;
+}
+.navtext{
+  font-family: 'Lemonada', cursive;
+  font-size: 20px;
+
+}
