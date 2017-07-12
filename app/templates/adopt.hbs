@@ -1,7 +1,9 @@
 <h3>MYPROFILE</h3>
+{{add-profile saveForm="saveForm"}}
+
 <ul>
   {{#each model as |pup|}}
     {{profile-dog pup=pup deletePup="deletePup"}}
+    {{update-info pup=pup updateForm1="updateForm1"}}
   {{/each}}
 </ul>
-{{add-profile saveForm="saveForm"}}
