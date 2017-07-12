@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('contact');
   this.route('adopt');
   this.route('stories');
+  this.route('pawfect', {path: '/pawfect/:rental_id'});
 });
 
 export default Router;
