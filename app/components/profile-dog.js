@@ -8,6 +8,11 @@ export default Ember.Component.extend({
     },
     hideImage:function(){
       this.set('isImageShowing',false);
+    },
+    delete(pup){
+      if(confirm("there is no going back")){
+        this.sendAction('deletePup', pup);
+      }
     }
   }
 });
