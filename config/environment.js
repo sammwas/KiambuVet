@@ -16,6 +16,15 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    firebase: {
+      apiKey: "AIzaSyAyrbxllON3oK2IZ3JZK9o6J1jqduVc-D8",
+    authDomain: "puppy-a0f8f.firebaseapp.com",
+    databaseURL: "https://puppy-a0f8f.firebaseio.com",
+    projectId: "puppy-a0f8f",
+    storageBucket: "puppy-a0f8f.appspot.com",
+    messagingSenderId: "509096257966"
+   },
+
 
     APP: {
       // Here you can pass flags/options to your application instance
