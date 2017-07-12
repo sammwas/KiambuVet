@@ -3,6 +3,6 @@
 {{#if isImageShowing}}
 <li><img src={{pup.image}} {{action 'hideImage'}}/></li>
 {{else}}
-<button {{action 'imageShow'}}>show image</button>
-<button {{action 'delete' pup}}>DELETE INFORMATION</button>
+<button {{action 'imageShow'}} class="btn">show image</button>
+<button {{action 'delete' pup}} class="btn">DELETE INFORMATION</button>
 {{/if}}

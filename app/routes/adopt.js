@@ -9,6 +9,11 @@ export default Ember.Route.extend({
     deletePup(pup){
       pup.destroyRecord();
       this.transitionTo('adopt');
+    },
+    saveForm(params){
+      var newPup= this.store.createRecord('adopt',params);
+      newPup.save();
+      this.transitionTo('adopt');
     }
   }
 });
