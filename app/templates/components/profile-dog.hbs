@@ -1,7 +1,7 @@
 <li>{{pup.name}}</li>
 <li>{{pup.city}}</li>
 {{#if isImageShowing}}
-<li><img src={{pup.image}} {{action 'hideImage'}}/></li>
+<li><img src={{pup.image}} {{action 'hideImage'}} class="well well lg"/></li>
 {{else}}
 <button {{action 'imageShow'}} class="btn">show image</button>
 <button {{action 'delete' pup}} class="btn">DELETE INFORMATION</button>
