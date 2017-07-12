@@ -1,2 +1,14 @@
+<div class="container">
+  <header class="jumbotron">
+    <h1>Super Rentals</h1>
+    {{#link-to 'index'}}home!{{/link-to}}
+    {{#link-to 'about'}}about us!{{/link-to}}
+    {{#link-to 'adopt'}}adopt a pup!{{/link-to}}
 
-{{outlet}}
+  </header>
+  {{outlet}}
+  <hr>
+  <footer>
+    {{#link-to 'contact'}}Our representatives would love to help!{{/link-to}}
+  </footer>
+</div>
