@@ -1,7 +1,12 @@
+# AUTHOR
+COLLINS NJAU MURU
+collinsnjau39@gmail.com
+
+
 # puppy
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This a dog adoption website that lets users upload details of dogs they want
+to give out and let people who want to adopt view them before adoting
 
 ## Prerequisites
 
@@ -14,7 +19,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone <https://github.com/Collins33/PET-ADOPTION>` this repository
 * `cd puppy`
 * `npm install`
 
@@ -36,15 +41,3 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
