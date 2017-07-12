@@ -1,8 +1,6 @@
 <h3>MYPROFILE</h3>
 <ul>
   {{#each model as |pup|}}
-    <li>{{pup.name}}</li>
-    <li>{{pup.city}}</li>
-    <li><img src={{pup.image}}/></li>
+    {{profile-dog pup=pup}}
   {{/each}}
 </ul>

@@ -1,0 +1,7 @@
+<li>{{pup.name}}</li>
+<li>{{pup.city}}</li>
+{{#if isImageShowing}}
+<li><img src={{pup.image}} {{action 'hideImage'}}/></li>
+{{else}}
+<button {{action 'imageShow'}}>show image</button>
+{{/if}}
