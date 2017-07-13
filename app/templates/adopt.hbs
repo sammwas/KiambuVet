@@ -12,10 +12,11 @@
       {{/each}}
     </ul>
     <h2> All Reviews </h2>
+    {{new-review review=review saveReview="saveReview"}}
 
     <ul>
       {{#each model.reviews as |review|}}
-        <li>{{review.rating}} - {{review.content}} - by {{review.author}}</li>
+      <li>{{review.rating}} - {{review.content}} - by {{review.author}}</li>
       {{/each}}
     </ul>
 

@@ -26,6 +26,11 @@ export default Ember.Route.extend({
   });
   pup.save();
   this.transitionTo('adopt');
-    }
+},
+saveReview(params){
+  var newRating=this.store.createRecord('review',params);
+  newRating.save();
+  this.transitionTo('adopt');
+}
   }
 });
