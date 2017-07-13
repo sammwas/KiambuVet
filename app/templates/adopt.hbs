@@ -7,11 +7,19 @@
   </div>
   <div class="row info">
     <ul>
-      {{#each model as |pup|}}
-        {{profile-dog pup=pup deletePup="deletePup"}}
-        {{update-info pup=pup updateForm1="updateForm1"}}
+      {{#each model.adopts as |pup|}}
+        {{profile-dog pup=pup deletePup="deletePup"}} {{update-info pup=pup updateForm1="updateForm1"}}
       {{/each}}
     </ul>
+    <h2> All Reviews </h2>
+
+    <ul>
+      {{#each model.reviews as |review|}}
+        <li>{{review.rating}} - {{review.content}} - by {{review.author}}</li>
+      {{/each}}
+    </ul>
+
+    <hr>
 
   </div>
 

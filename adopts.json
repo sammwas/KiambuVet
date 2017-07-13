@@ -6,5 +6,15 @@
     "name": "Mike Teavee",
     "city": "Seattle",
     "image": "https://images4.alphacoders.com/302/thumb-1920-30296.jpg"
+  }],
+  "reviews": [{
+    "author": "Andrea",
+    "rating": 4,
+    "content": "Did not fall down."
+  }, {
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice view of the volcano!"
   }]
+
 }
