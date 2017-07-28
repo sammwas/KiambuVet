@@ -1,20 +1,43 @@
 { "adopts": [{
-    "name": "San Francisco",
-    "city": "Estate",
-    "image": "https://images8.alphacoders.com/380/thumb-1920-380977.jpg"
+    "name": "Ngaru Animals",
+    "location": "Ruiru",
+    "image": "https://images8.alphacoders.com/380/thumb-1920-380977.jpg",
+    "services": "we take care of pets and nurture them"
   }, {
-    "name": "Mike Teavee",
-    "city": "Seattle",
-    "image": "https://images4.alphacoders.com/302/thumb-1920-30296.jpg"
-  }],
-  "reviews": [{
-    "author": "Andrea",
-    "rating": 4,
-    "content": "Did not fall down."
-  }, {
-    "author": "Alex",
-    "rating": 9,
-    "content": "Nice view of the volcano!"
+    "name": "Kenvest medical",
+    "location": "Gitamaiyu",
+    "image": "http://loudounhorse.com/wp-content/uploads/2013/04/fairfax-county-horse-farms.jpg",
+    "services": "horses are our speciality"
+  },
+  {
+  "name": "Kasarini Vets",
+  "location": "Kasarini",
+  "image": "http://smartfarming.co.za/wp-content/uploads/2014/04/chicken-farm.jpg",
+  "services": "come to us and we will help you help you"
+  },
+  {
+    "name": "Ndumberi Vetenary",
+    "location": "Ndumberi",
+    "image": "http://nation.lk/online/wp-content/uploads/2016/03/Dairy-farming-2.jpg",
+    "services": "have a healthy cattle farm"
+  },
+  {
+  "name": "Vota Medics",
+  "location": "Lioki",
+  "image": "http://uwpics.urduwire.com/images_photos/photos/Camels86590917_2014919161436.jpg",
+  "services": "come to us for all your animal needs"
+  },
+  {
+  "name": "Wa Shiru Place",
+  "location": "Githunguri",
+  "image": "https://media.mnn.com/assets/images/2017/04/group-of-dogs-different-breeds.jpg.653x0_q80_crop-smart.jpg",
+  "services": "we are specialists in dog care and treatment"
+},
+  {
+  "name": "Mwego Services",
+  "location": "Thika",
+  "image": "http://www.cats.org.uk/uploads/branches/100/Cat%20pic.jpg",
+  "services": "we treat all types of indigenous animals"
   }]
 
 }

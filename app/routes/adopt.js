@@ -3,10 +3,7 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model(){
-     return Ember.RSVP.hash({
-       adopts: this.store.findAll('adopt'),
-       reviews: this.store.findAll('review')
-     });
+     return this.store.findAll('adopt');
   },
   actions:{
     deletePup(pup){

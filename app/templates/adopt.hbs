@@ -1,28 +1,8 @@
-<div class="container-fluid">
-  <div class="row">
-    <h3 class="info">MYpups</h3>
-  </div>
-  <div class="row info">
-    {{add-profile saveForm="saveForm"}}
-  </div>
-  <div class="row info">
-    <ul>
-      {{#each model.adopts as |pup|}}
-        {{profile-dog pup=pup deletePup="deletePup"}} {{update-info pup=pup updateForm1="updateForm1"}}
-      {{/each}}
-    </ul>
-    <h2> All Reviews </h2>
-    {{new-review review=review saveReview="saveReview"}}
-
-    <ul>
-      {{#each model.reviews as |review|}}
-      <li>{{review.rating}} - {{review.content}} - by {{review.author}}</li>
-      {{/each}}
-    </ul>
-
-    <hr>
-
-  </div>
-
-
+<h2>Checkout the Following Veternary services around you</h2>
+<div class="row">
+{{#each model as |vet|}}
+{{profile-dog vet=vet delete='delete'}}
+{{/each}}
 </div>
+
+{{add-profile saveForm="saveForm"}}

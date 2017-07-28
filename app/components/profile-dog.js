@@ -9,9 +9,9 @@ export default Ember.Component.extend({
     hideImage:function(){
       this.set('isImageShowing',false);
     },
-    delete(pup){
+    delete(vet){
       if(confirm("there is no going back")){
-        this.sendAction('deletePup', pup);
+        this.sendAction('deletePup', vet);
       }
     }
   }

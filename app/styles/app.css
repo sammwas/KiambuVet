@@ -1,42 +1,9 @@
-img{
-  height:350px;
-  width: 350px;
-}
-.carousel-inner > .item > img,
- .carousel-inner > .item > a > img {
-     width: 100%;
-     height: 500px !important;
- }
- .footerimage{
-   height: 90px;
-   width: 90px;
- }
-#opening{
-  font-family: 'Lemonada', cursive;
-}
-.navtext{
-  font-family: 'Lemonada', cursive;
-  font-size: 20px;
-
-}
-#info1{
-  background-image: url("https://wallpaperscraft.com/image/dog_sit_face_flowers_branches_92055_1920x1080.jpg");
+.mainpanel {
+  background-image: url("http://www.northcolonyanimalclinic.com/sites/site-2959/images/Practice%20Images/b3ad1944-7f00-0001-6b12-91aa41afba0a.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
-  height: 300px;
-  text-align: center;
-  font-size: 30px;
-  color: white;
-  font-family: 'Lemonada', cursive;
-
-}
-.jumbotron{
-  background: #2BC0E4;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-.info{
-  font-family: 'Rakkas', cursive;
+  color: black;
+  font-size: 25px;
 }

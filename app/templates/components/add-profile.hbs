@@ -6,15 +6,19 @@
     {{input value=name id="name"}}
   </div>
   <div class="form-group">
-    <label for="city">CITY</label>
-    {{input value=city id="city"}}
+    <label for="location">LOCATION</label>
+    {{input value=location id="location"}}
   </div>
   <div class="form-group">
     <label for="image">Image</label>
     {{input value=image id="image"}}
   </div>
+  <div class="form-group">
+    <label for="services">Services</label>
+    {{input value=services id="services"}}
+  </div>
   <button {{action 'saveForm'}} class="btn">SAVE INFORMATION</button>
 </form>
 {{else}}
-<button {{action 'showForm'}}>ADD INFO</button>
+<button {{action 'showForm'}}>ADD Vet</button>
 {{/if}}

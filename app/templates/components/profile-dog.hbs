@@ -1,8 +1,7 @@
-<li>{{pup.name}}</li>
-<li>{{pup.city}}</li>
-{{#if isImageShowing}}
-<li><img src={{pup.image}} {{action 'hideImage'}} class="well well lg"/></li>
-{{else}}
-<button {{action 'imageShow'}} class="btn">show image</button>
-<button {{action 'delete' pup}} class="btn">DELETE INFORMATION</button>
-{{/if}}
+<div class="row text-center">
+<div class="panel panel-default">
+    <div class="panel-heading">{{vet.name}}</div>
+    <div class="panel-body">{{#link-to 'pawfect' adopt.id}}<img src={{vet.image}} alt="space1" class="img-responsive spaceimage well">{{/link-to}} <div style="float:center;">{{vet.services}}</div></div>
+    <div class="panel-footer"><button class="btn btn-danger btn-xs" {{action 'delete' vet}}>Delete</button>{{#link-to 'stories' adopt.id}}<button class="btn btn-primary btn-xs">Edit</button>{{/link-to}}</div>
+  </div>
+</div>

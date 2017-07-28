@@ -10,8 +10,8 @@ Router.map(function() {
   this.route('about');
   this.route('contact');
   this.route('adopt');
-  this.route('stories');
-  this.route('pawfect', {path: '/pawfect/:pawfect_name'});
+  this.route('stories',{path: '/stories/:adopt_id'});
+  this.route('pawfect', {path: '/pawfect/:adopt_id'});
 });
 
 export default Router;
